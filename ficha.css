@@ -31,7 +31,7 @@ color: rgb(255, 0, 47);
 color: rgb(255, 0, 47);
 z-index:1;
   font-family: New Rocker;
-  font-size: 72;
+  font-size: 5em;
   line-height: 1;
   margin-top: -30px;
   text-align: justify;
@@ -57,3 +57,4 @@ a {
 cor {
   color: #95e0ff;
 }
+
