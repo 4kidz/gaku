@@ -13,13 +13,13 @@
   z-index: 1;
 }
 
-p {
+.p {
   font-family: "Fira Sans";
   font-size: 10px;
 color: #D5F3FD;
 }
 
-p::first-letter {
+.p::first-letter {
   font-family: 'New Rocker';
 color: rgb(255, 0, 47);
   font-size: 20px;
