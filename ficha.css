@@ -15,7 +15,7 @@
   z-index: 1;
 }
 
-p {
+.new {
   font-family: "El Messiri", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -61,4 +61,5 @@ a {
 cor {
   color: #95e0ff;
 }
+
 
