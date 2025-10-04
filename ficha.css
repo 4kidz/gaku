@@ -1,0 +1,59 @@
+.inicial {
+  align-items: center;
+  padding: 2px;
+  text-align: center;
+  width: 780px;
+  background-color: rgb(0, 0, 0);
+  margin-top: -65px;
+  margin-left: 15px;
+}
+.texto {
+  line-height: 1.5;
+  text-align: justify;
+  margin: 8%;
+  z-index: 1;
+}
+
+p {
+  font-family: "Fira Sans";
+  font-size: 12px;
+color: #D5F3FD;
+}
+
+p::first-letter {
+  font-family: 'New Rocker';
+color: rgb(255, 0, 47);
+  font-size: 20px;
+    line-height: 1em;
+}
+
+.spoilerino {
+color: rgb(255, 0, 47);
+z-index:1;
+  font-family: New Rocker;
+  font-size: 72;
+  line-height: 1;
+  margin-top: -30px;
+  text-align: justify;
+}
+
+.texto2 {
+column-count: 2;
+  font-size:12px;
+  font-family: 'Fira Sans'; 
+  color: #ffffff;
+}
+
+summary {
+  list-style: none;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 0, 47);
+}
+
+cor {
+  color: #95e0ff;
+}
