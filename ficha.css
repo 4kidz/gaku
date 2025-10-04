@@ -23,7 +23,7 @@ color: #D5F3FD;
 display: block;
 }
 
-p::first-letter {
+.new::first-letter {
   font-family: 'New Rocker';
 color: rgb(255, 0, 47);
   font-size: 20px;
@@ -61,5 +61,6 @@ a {
 cor {
   color: #95e0ff;
 }
+
 
 
