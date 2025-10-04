@@ -14,7 +14,8 @@
 }
 
 p {
-  font-family: Arial;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
   font-size: 12px;
 color: #D5F3FD;
 display: block;
