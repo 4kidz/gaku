@@ -2,9 +2,7 @@
 
 .inicial {
   align-items: center;
-  padding: 2px;
   text-align: center;
-  width: 780px;
   margin-top: -65px;
   margin-left: 15px;
 }
@@ -61,6 +59,7 @@ a {
 cor {
   color: #95e0ff;
 }
+
 
 
 
