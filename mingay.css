@@ -191,7 +191,7 @@ color: #ff0000;
   border-radius: 20px;
   margin: auto;
   box-shadow: 3px -3px 3px rgb(255, 255, 255);
-  background-image: url("/buc/FC0tVF0.png");
+  background-image: url("https://i.imgur.com/FC0tVF0.png");
   background-position: 0px -100px;
   background-size: 570px auto;
   position: relative;
@@ -225,7 +225,7 @@ color: #ff0000;
 }
 
 #Garu .cred {
-width: auto;
+width: 100px;
   margin: -40px 65%;
   text-align: center;
   transition: 5s ease-in-out;
