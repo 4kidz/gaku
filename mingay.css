@@ -126,6 +126,8 @@ main #Garu {
   color: rgb(230, 230, 230);
   font-size: 20px;
   font-family: "Spectral";
+  font-weight: 200;
+  font-style: normal;
   text-align: justify;
   line-height: 1.45;
   margin: auto;
@@ -230,7 +232,7 @@ body:has(#Garu .garu-img img:hover) #cred {
 
 #Garu .cred {
   width: 100px;
-  margin: -40px auto 20px 80%;
+  margin: -40px auto 20px 90%;
   text-align: center;
   transition: 5s ease-in-out;
 }
