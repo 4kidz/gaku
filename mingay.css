@@ -4,7 +4,7 @@ main #Garu {
 
 /* box */
 #Garu .garu-ini {
-  background-color: #0c0c0d;
+  background-color: #0a0a0c36;
   width: 800px;
   margin: 25px auto;
   border-radius: 30px;
@@ -108,7 +108,7 @@ main #Garu {
 
 /* parte textual */
 #Garu .garu-corpo {
-  background-color: #0c0c0d;
+  background-color: #0a0a0c36;
   width: 560px;
   margin: -383px auto 20px 180px;
   padding: 20px;
@@ -126,8 +126,6 @@ main #Garu {
   color: rgb(230, 230, 230);
   font-size: 20px;
   font-family: "Spectral";
-  font-weight: 200;
-  font-style: normal;
   text-align: justify;
   line-height: 1.45;
   margin: auto;
