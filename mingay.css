@@ -40,7 +40,7 @@ main #Garu {
   margin: auto;
   text-align: right;
   font-size: 40px;
-  padding: 10px;
+  padding: 25px;
   font-family: "Girassol", serif;
   letter-spacing: 4px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255),
@@ -131,6 +131,11 @@ main #Garu {
   margin: auto;
   padding: 20px 0 20px 0;
   transition: ease-in-out 2s 0s;
+}
+
+#Garu cor {
+ font-family: 'Spectral';
+ font-weight: Bold 700 Italic;
 }
 
 /* transições */
@@ -226,7 +231,7 @@ color: #ff0000;
 
 #Garu .cred {
 width: 100px;
-  margin: -40px 65%;
+  margin: -40px auto 20px 65%;
   text-align: center;
   transition: 5s ease-in-out;
 }
