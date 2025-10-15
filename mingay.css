@@ -1,5 +1,9 @@
+main #Garu {
+  opacity: 100%;
+}
+
 /* box */
-.garu-ini {
+#Garu .garu-ini {
   background-color: #0c0c0d;
   width: 800px;
   margin: 25px auto;
@@ -9,7 +13,7 @@
   transition: ease-in-out 2s 0s;
 }
 /* faixas */
-.garu-ini img {
+#Garu .garu-ini img {
   height: 400px;
   width: 576px;
   margin-left: 28%;
@@ -18,7 +22,7 @@
   position: relative;
 }
 /* linha branca */
-.garu-title {
+#Garu .garu-title {
   background-color: rgb(255, 255, 255);
   height: 70px;
   width: 700px;
@@ -31,7 +35,7 @@
   transition: ease-in-out 2s 0s;
 }
 
-.garu-title2 {
+#Garu .garu-title2 {
   color: rgb(0, 0, 0);
   margin: auto;
   text-align: right;
@@ -45,7 +49,7 @@
   transition: ease-in-out 2s 0s;
 }
 /* jashin */
-.garu-img img {
+#Garu .garu-img img {
   width: 300px;
   height: 300px;
   background-color: #0c0c0d;
@@ -58,7 +62,7 @@
   transition: ease-in-out 2s 0s;
 }
 
-.garu-img img:hover {
+#Garu .garu-img img:hover {
   transition: 5s ease-in-out;
   box-shadow: -20px -20px 200em rgb(255, 0, 0);
   background-color: #d01418;
@@ -66,7 +70,7 @@
 }
 
 /* lateral */
-.garu-lateral {
+#Garu .garu-lateral {
   background-image: url;
   background-position: -140px 28px;
   position: relative;
@@ -83,7 +87,7 @@
   transition: ease-in-out 2s 0s;
 }
 
-.garu-tlateral {
+#Garu .garu-tlateral {
   color: #fff;
   padding-top: 150px;
   text-align: justify;
@@ -103,7 +107,7 @@
 }
 
 /* parte textual */
-.garu-corpo {
+#Garu .garu-corpo {
   background-color: #0c0c0d;
   width: 560px;
   margin: -383px auto 20px 180px;
@@ -118,7 +122,7 @@
 }
 
 /* formatação das letras */
-.garu-texto {
+#Garu .garu-texto {
   color: rgb(230, 230, 230);
   font-size: 20px;
   font-family: "Spectral";
@@ -130,50 +134,50 @@
 }
 
 /* transições */
-body:has(.garu-img img:hover) .garu-texto {
+body:has(#Garu .garu-img img:hover) #Garu .garu-texto {
   text-shadow: 2px 2px 5px rgb(229, 50, 14);
   color: rgb(200, 122, 122);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .garu-title2 {
+body:has(#Garu .garu-img img:hover) #Garu .garu-title2 {
   color: rgb(190, 50, 25);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .garu-ini {
+body:has(#Garu .garu-img img:hover) #Garu .garu-ini {
   box-shadow: -2px 2px 5px rgb(255, 53, 53);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .status-container {
+body:has(#Garu .garu-img img:hover) .status-container {
   text-shadow: 2px 2px 5px rgb(229, 50, 14);
   color: rgb(200, 122, 122);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .garu-lateral {
+body:has(#Garu .garu-img img:hover) #Garu .garu-lateral {
   box-shadow: -3px 3px 3px rgb(255, 53, 53);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .garu-corpo {
+body:has(#Garu .garu-img img:hover) #Garu .garu-corpo {
   box-shadow: 3px -3px 3px rgb(255, 53, 53);
   transition: ease-in-out 2s 5s;
 }
 
-body:has(.garu-img img:hover) .garu-extra {
+body:has(#Garu .garu-img img:hover) #Garu .garu-extra {
   background-position: 0px -600px;
   box-shadow: 0px 40px 70px rgb(130, 25, 25);
   filter: drop-shadow(0px 40px 70px rgb(130, 25, 25));
   height: 450px;
 }
 
-body:has(.garu-img img:hover) a {
+body:has(#Garu .garu-img img:hover) a {
 color: #ff0000;
 }
 
-body:has(.garu-img img:hover) #cred {
+body:has(#Garu .garu-img img:hover) #cred {
 color: #ff0000;
   margin: -15px 65%;
 }
@@ -181,7 +185,7 @@ color: #ff0000;
 
 
 /* parte extra imagem inferior */
-.garu-extra {
+#Garu .garu-extra {
   width: auto;
   height: 160px;
   border-radius: 20px;
@@ -205,7 +209,7 @@ color: #ff0000;
     padding: 10px;
 }
 
-.garu-extra::before {
+#Garu .garu-extra::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -213,32 +217,32 @@ color: #ff0000;
   z-index: 1;
 }
 
-.extra-text {
+#Garu .extra-text {
   display: inline-block;
   padding: 10px;
   font-family: 'Spectral';
   font-size: 20px;
 }
 
-.cred {
+#Garu .cred {
 width: auto;
   margin: -40px 65%;
   text-align: center;
   transition: 5s ease-in-out;
 }
 
-.cred > a {
+#Garu .cred > a {
   text-decoration: none;
   color: azure;
 font-family: 'Girassol';
   transition: 5s ease-in-out;
 }
 
-summary {
+#Garu summary {
   color: white;
   list-style-type: none;
 }
 
-details {
+#Garu details {
   color: white;
 }
