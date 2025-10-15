@@ -133,9 +133,10 @@ main #Garu {
   transition: ease-in-out 2s 0s;
 }
 
-#Garu cor {
+cor {
  font-family: 'Spectral';
- font-weight: Bold 700 Italic;
+   font-weight: 700;
+  font-style: italic;
 }
 
 /* transições */
