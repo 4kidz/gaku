@@ -193,7 +193,7 @@ body:has(#Garu .garu-img img:hover) #wrap {
   transition: 5s ease-in-out;
 }
 
-body:has(#Garu .garu-img img:hover) .parte-p3 {
+body:has(#Garu .garu-img img:hover) #parte-p3 {
   background-color: #fa0a0c70;
   transition: 5s ease-in-out;
 }
