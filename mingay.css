@@ -4,18 +4,17 @@ main #Garu {
 
 /* box */
 #Garu .garu-ini {
-  background-color: #0a0a0c36;
-  width: 800px;
+    background-color: black;
+  width: 600px;
   margin: 25px auto;
   border-radius: 30px;
   box-shadow: 3px -3px 3px white;
-
   transition: ease-in-out 2s 0s;
 }
 /* faixas */
 #Garu .garu-ini img {
-  height: 400px;
-  width: 576px;
+  height: 300px;
+  width: 432px;
   margin-left: 28%;
   margin-top: -1px;
   z-index: 2;
@@ -24,14 +23,13 @@ main #Garu {
 /* linha branca */
 #Garu .garu-title {
   background-color: rgb(255, 255, 255);
-  height: 70px;
-  width: 700px;
+  height: 50px;
+  width: 500px;
   margin: auto 0 0 100px;
-  margin-top: -255px;
+  margin-top: -190px;
   position: relative;
   z-index: 2;
   box-shadow: -2px 2px 20px rgb(0, 0, 0);
-
   transition: ease-in-out 2s 0s;
 }
 
@@ -39,26 +37,23 @@ main #Garu {
   color: rgb(0, 0, 0);
   margin: auto;
   text-align: right;
-  font-size: 40px;
+  font-size: 30px;
   padding: 5px;
   font-family: "Girassol", serif;
   letter-spacing: 4px;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255),
-    0 0 0.2em rgb(0, 0, 0);
-
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
   transition: ease-in-out 2s 0s;
 }
 /* jashin */
 #Garu .garu-img img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: #0c0c0d;
-  margin: -147px auto auto 25px;
+  margin: -115px auto auto 30px;
   border-radius: 50%;
   position: relative;
   z-index: 2;
   box-shadow: 2px -2px 240px rgb(0, 0, 0);
-
   transition: ease-in-out 2s 0s;
 }
 
@@ -71,19 +66,15 @@ main #Garu {
 
 /* lateral */
 #Garu .garu-lateral {
-  background-image: url;
-  background-position: -140px 28px;
   position: relative;
   align-items: center;
-  background-repeat: no-repeat;
-  margin: -150px auto auto 25px;
-  width: 140px;
-  height: 500px;
+  margin: -150px auto auto 20px;
+  width: 120px;
+  height: 430px;
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 3px 3px 3px rgb(255, 255, 255);
   display: inline-block;
-
   transition: ease-in-out 2s 0s;
 }
 
@@ -91,14 +82,15 @@ main #Garu {
   color: #fff;
   padding-top: 150px;
   text-align: justify;
-  font-size: 19px;
+  font-size: 14px;
+  margin: auto auto auto 10px;
 }
 
 .status-container {
   display: grid;
   grid-template-columns: auto auto;
   gap: 4px 10px;
-  font-family: "Courier Prime", monospace;
+  font-family: 'Courier Prime', monospace;
   color: white;
   padding: 15px;
   width: fit-content;
@@ -109,8 +101,8 @@ main #Garu {
 /* parte textual */
 #Garu .garu-corpo {
   background-color: #0a0a0c36;
-  width: 560px;
-  margin: -383px auto 20px 180px;
+  width: 380px;
+  margin: -310px auto 20px 170px;
   padding: 20px;
   border-radius: 0 0 2% 20px;
   display: inline-block;
@@ -124,7 +116,7 @@ main #Garu {
 /* formatação das letras */
 #Garu .garu-texto {
   color: rgb(230, 230, 230);
-  font-size: 20px;
+  font-size: 14px;
   font-family: "Spectral";
   font-weight: 200;
   font-style: normal;
@@ -181,13 +173,23 @@ body:has(#Garu .garu-img img:hover) #Garu .garu-extra {
   height: 450px;
 }
 
+body:has(#Garu .garu-img img:hover) #Garu .garu-extra::before {
+  background-color: rgba(216, 16, 16, 0.3);
+  
+}
+
 body:has(#Garu .garu-img img:hover) a {
   color: #ff0000;
+    transition: 5s ease-in-out;
 }
 
 body:has(#Garu .garu-img img:hover) #cred {
   color: #ff0000;
   margin: -15px 65%;
+}
+
+body:has(#Garu .garu-img img:hover) #lista-topicos-nc {
+  background-color: #Fa0a0c70;
 }
 
 /* parte extra imagem inferior */
@@ -221,13 +223,15 @@ body:has(#Garu .garu-img img:hover) #cred {
   inset: 0;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
+    transition: 5s ease-in-out;
+
 }
 
 #Garu .extra-text {
   display: inline-block;
   padding: 10px;
   font-family: "Spectral";
-  font-size: 20px;
+  font-size: 14px;
 }
 
 #Garu .cred {
