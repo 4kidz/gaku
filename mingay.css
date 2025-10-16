@@ -190,22 +190,22 @@ body:has(#Garu .garu-img img:hover) #cred {
 
 body:has(#Garu .garu-img img:hover) #wrap {
   background-color: #fa0a0c70;
-  transition: 5s ease-in-out;
+  transition: 5s 5s ease-in-out;
 }
 
-body:has(#Garu .garu-img img:hover) #parte-p3 {
+body:has(#Garu .garu-img img:hover) #basedopost {
   background-color: #fa0a0c70;
-  transition: 5s ease-in-out;
+  transition: 5s 5s ease-in-out;
 }
 
 body:has(#Garu .garu-img img:hover) #parte-p2 {
   background-color: #fa0a0c70;
-  transition: 5s ease-in-out;
+  transition: 5s 5s ease-in-out;
 }
 
 body:has(#Garu .garu-img img:hover) #parte-p1 {
   background-color: #fa0a0c70;
-  transition: 5s ease-in-out;
+  transition: 5s 5s ease-in-out;
 }
 
 /* parte extra imagem inferior */
