@@ -4,7 +4,7 @@ main #Garu {
 
 /* box */
 #Garu .garu-ini {
-    background-color: black;
+  background-color: black;
   width: 600px;
   margin: 25px auto;
   border-radius: 30px;
@@ -41,7 +41,8 @@ main #Garu {
   padding: 5px;
   font-family: "Girassol", serif;
   letter-spacing: 4px;
-  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(0, 0, 0);
   transition: ease-in-out 2s 0s;
 }
 /* jashin */
@@ -90,7 +91,7 @@ main #Garu {
   display: grid;
   grid-template-columns: auto auto;
   gap: 4px 10px;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
   color: white;
   padding: 15px;
   width: fit-content;
@@ -175,12 +176,11 @@ body:has(#Garu .garu-img img:hover) #Garu .garu-extra {
 
 body:has(#Garu .garu-img img:hover) #Garu .garu-extra::before {
   background-color: rgba(216, 16, 16, 0.3);
-  
 }
 
 body:has(#Garu .garu-img img:hover) a {
   color: #ff0000;
-    transition: 5s ease-in-out;
+  transition: 5s ease-in-out;
 }
 
 body:has(#Garu .garu-img img:hover) #cred {
@@ -188,8 +188,9 @@ body:has(#Garu .garu-img img:hover) #cred {
   margin: -15px 65%;
 }
 
-body:has(#Garu .garu-img img:hover) #lista-topicos-nc {
-  background-color: #Fa0a0c70;
+body:has(#Garu .garu-img img:hover) #wrap {
+  background-color: #fa0a0c70;
+  transition: 5s ease-in-out;
 }
 
 /* parte extra imagem inferior */
@@ -223,8 +224,7 @@ body:has(#Garu .garu-img img:hover) #lista-topicos-nc {
   inset: 0;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
-    transition: 5s ease-in-out;
-
+  transition: 5s ease-in-out;
 }
 
 #Garu .extra-text {
@@ -244,7 +244,7 @@ body:has(#Garu .garu-img img:hover) #lista-topicos-nc {
 #Garu .cred > a {
   text-decoration: none;
   color: azure;
-  font-family: 'Girassol';
+  font-family: "Girassol";
   transition: 5s ease-in-out;
 }
 
