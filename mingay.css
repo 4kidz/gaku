@@ -206,7 +206,7 @@ body:has(#Garu .garu-img img:hover) #parte-p1 {
   transition: 5s 5s ease-in-out;
 }
 
-body:has(#Garu .garu-img img:hover) #titulo-ltopico {
+body:has(#Garu .garu-img img:hover) #basedopost {
   background-color: #000000;
   transition: 5s 5s ease-in-out;
 }
