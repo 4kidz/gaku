@@ -193,7 +193,7 @@ body:has(#Garu .garu-img img:hover) #wrap {
   transition: 5s 5s ease-in-out;
 }
 
-body:has(#Garu .garu-img img:hover) #basedopost {
+body:has(#Garu .garu-img img:hover) #parte-p3 {
   background-color: #fa0a0c70;
   transition: 5s 5s ease-in-out;
 }
@@ -205,6 +205,11 @@ body:has(#Garu .garu-img img:hover) #parte-p2 {
 
 body:has(#Garu .garu-img img:hover) #parte-p1 {
   background-color: #fa0a0c70;
+  transition: 5s 5s ease-in-out;
+}
+
+body:has(#Garu .garu-img img:hover) #titulo-ltopico {
+  background-color: #000000;
   transition: 5s 5s ease-in-out;
 }
 
