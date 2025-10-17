@@ -38,7 +38,7 @@ main #Garu {
   text-align: right;
   font-size: 30px;
   padding: 5px;
-  font-family: 'Girassol', serif;
+  font-family: "Girassol", serif;
   letter-spacing: 4px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(255, 255, 255),
     0 0 0.2em rgb(0, 0, 0);
@@ -90,7 +90,7 @@ main #Garu {
   display: grid;
   grid-template-columns: auto auto;
   gap: 4px 10px;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
   color: white;
   padding: 15px;
   width: fit-content;
@@ -116,7 +116,7 @@ main #Garu {
 #Garu .garu-texto {
   color: rgb(230, 230, 230);
   font-size: 14px;
-  font-family: 'Spectral';
+  font-family: "Spectral";
   font-weight: 200;
   font-style: normal;
   text-align: justify;
@@ -127,9 +127,10 @@ main #Garu {
 }
 
 cor {
-  font-family: 'Spectral';
+  font-family: "Spectral";
   font-weight: 700;
   font-style: italic;
+  color: #95e0ff;
 }
 
 /* transições */
@@ -228,7 +229,7 @@ body:has(#Garu .garu-img img:hover) #basedopost {
   transition: 5s ease-in-out;
   transition-timing-function: cubic-bezier(0.5, 0.1, 0.2, 1);
   color: black;
-  font-family: 'Girassol';
+  font-family: "Girassol";
   font-size: 50px;
   text-shadow: 2px 2px 3px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255),
     3px 3px 0.2em rgb(255, 255, 255);
@@ -248,13 +249,13 @@ body:has(#Garu .garu-img img:hover) #basedopost {
 #Garu .extra-text {
   display: inline-block;
   padding: 10px;
-  font-family: 'Spectral';
+  font-family: "Spectral";
   font-size: 14px;
 }
 
 #Garu .cred {
   width: 100px;
-  margin: -40px auto 20px 90%;
+  margin: -40px auto 20px 80%;
   text-align: center;
   transition: 5s ease-in-out;
 }
@@ -262,7 +263,7 @@ body:has(#Garu .garu-img img:hover) #basedopost {
 #Garu .cred > a {
   text-decoration: none;
   color: azure;
-  font-family: 'Girassol';
+  font-family: "Girassol";
   transition: 5s ease-in-out;
 }
 
